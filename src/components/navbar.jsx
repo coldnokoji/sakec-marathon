@@ -23,10 +23,10 @@ const Navbar = () => {
         </label>
 
         <nav className="navbar">
-            <a className="page-link" href='/'>Home</a>
-            <a className="page-link" href='/about'>Marathon 2024</a>
-            <a className="page-link" href='/team'>Team</a>
-            <a className="page-link" href='/contact'>Contact/FAQ</a>
+            <NavLink className="page-link" to='/'>Home</NavLink>
+            <NavLink className="page-link" to='/about'>Marathon 2024</NavLink>
+            <NavLink className="page-link" to='/team'>Team</NavLink>
+            <NavLink className="page-link" to='/contact'>Contact/FAQ</NavLink>
             <a href="https://www.townscript.com/e/sakec-marathon-2024-334200" target="blank">Register</a>
         </nav>
     </header>
