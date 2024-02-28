@@ -6,12 +6,12 @@
 }
 footer{
   
-  background: #140B5C;
+  background: #152f33;
   width: 100%;
   bottom: 0;
   left: 0;
 }
-footer::before{
+/* footer::before{
   content: '';
   position: absolute;
   left: 0;
@@ -19,7 +19,7 @@ footer::before{
   height: 1px;
   width: 100%;
   background: #AFAFB6;
-}
+} */
 footer .content{
   max-width: 1250px;
   margin: auto;
@@ -29,7 +29,6 @@ footer .content .top{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 50px;
 }
 .content .top .logo-details{
   color: #fff;
@@ -42,6 +41,7 @@ footer .content .top{
   height: 40px;
   width: 40px;
   margin: 0 8px;
+  padding-top: 5px;
   border-radius: 50%;
   text-align: center;
   line-height: 40px;
@@ -160,7 +160,7 @@ footer .content .link-boxes .box{
 }
 footer .bottom-details{
   width: 100%;
-  background: #0F0844;
+  background: #0e1e21;
 }
 footer .bottom-details .bottom_text{
   max-width: 1250px;

@@ -1,0 +1,28 @@
+.team-change {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top:25vh ;
+    background-color: black;
+  }
+  
+  .team-change-btn {
+    
+    padding: 1vh;
+    margin: 2vh;
+    border-radius: 20px;
+    border: 2px solid rgb(119, 200, 206);
+    cursor: pointer;
+    font-size: 2vh;
+    font-weight: 600;
+  }
+  
+  .team-change-btn:hover {
+    border: 2px solid #fff;
+    background-color: rgb(119, 200, 206);
+    transform: translateY(-5px);
+    transition: 0.4s ease;
+  }

@@ -2,15 +2,18 @@ import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Carousel from "../components/Carousel";
-import Navbartwo from "../components/Navbartwo";
+
+import Imagecarousel from "../components/Imagecarousel";
+import Hero from "../components/hero";
 
 const Home = () =>{
     return (
         <>
-        {/* <Navbar/> */}
-        <Navbartwo/> 
-        <Carousel/>
-        
+        <Navbar/>
+       
+        {/* <Carousel/> */}
+        <Imagecarousel/>
+        <Hero/>
         <Footer/>
         </>
     );
