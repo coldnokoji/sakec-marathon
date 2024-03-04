@@ -1,0 +1,120 @@
+.faq-body{
+    width: 100%;
+    height: auto;
+    padding: 3%;
+    margin-top: 15vh;
+}
+
+.main-header {
+    background-image: radial-gradient(#12272b, #214d53);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 2%;
+    border-radius: 30px;
+    max-height: 380px;
+    color: #f5f5f5;
+}
+
+.main-header-title {
+    font-size: 48px;
+    letter-spacing: 1.5;
+}
+
+.main-header-desc {
+    font-size: 14px;
+    letter-spacing: 1;
+    text-align: center;
+}
+
+.faq {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 3%;
+}
+
+.faq-name {
+    flex: 0.5;
+    padding: 2% 2% 0 0;
+}
+
+.faq-header {
+    padding: 5% 0 0 0;
+    font-size: 35px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.faq-img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.faq-box {
+    flex: 1;
+    min-width: 320px;
+    padding: 2% 0 4% 4%;
+    border-left: 2px solid #b16014;
+}
+
+.faq-wrapper {
+    width: 100%;
+    padding: 1.5rem;
+    border-bottom: 1px solid #223;
+}
+
+.faq-title {
+    display: block;
+    position: relative;
+    width: 100%;
+    letter-spacing: 1.2;
+    font-size: 24px;
+    font-weight: 600;
+    color: #b16014;
+}
+
+.faq-title:after {
+    width: 10px;
+    height: 10px;
+    content: "";
+    float: right;
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    transform: rotate(135deg);
+    transition: 0.4s ease-in-out;
+}
+
+.faq-detail {
+    line-height: 1.5;
+    letter-spacing: 1;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.7s ease-in-out;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.faq-trigger {
+    display: none;
+}
+
+.faq-trigger:checked + .faq-title + .faq-detail {
+    max-height: 300px;
+}
+
+.faq-trigger:checked + .faq-title::after {
+    transform: rotate(-45deg);
+    transition: 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 680px) {
+    .faq-title {
+        font-size: 20px;
+    }
+}

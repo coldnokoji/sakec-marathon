@@ -13,6 +13,14 @@
     padding: 50px 50px 150px 50px;
 }
 
+.team-card {
+    box-shadow: 0 10px 20px #31968e;
+    overflow: hidden;
+    border: 2px solid #d6fff5;
+    border-radius: 20px;
+    width:33%;
+
+}
 @media (max-width:650px){
     .body{
         display: block;
@@ -20,18 +28,13 @@
     }
     .team-card{
         margin: 5vh 0;
+        width: 100%;
        
     }
     .second {
         width: 100%;
         padding: 0%;
     }
-}
-.team-card {
-    box-shadow: 0 10px 20px #31968e;
-    overflow: hidden;
-    border: 2px solid #d6fff5;
-    border-radius: 20px;
 }
 
 .second-wrapper{

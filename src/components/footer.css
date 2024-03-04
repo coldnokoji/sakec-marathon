@@ -41,7 +41,7 @@ footer .content .top{
   height: 40px;
   width: 40px;
   margin: 0 8px;
-  padding-top: 5px;
+  padding-top: 2px;
   border-radius: 50%;
   text-align: center;
   line-height: 40px;
@@ -51,10 +51,10 @@ footer .content .top{
   transition: all 0.4s ease;
 }
 .top .media-icons a:nth-child(1){
-  background: #4267B2;
+  background: #E1306C;
 }
 .top .media-icons a:nth-child(1):hover{
-  color: #4267B2;
+  color: #E1306C;
   background: #fff;
 }
 .top .media-icons a:nth-child(2){
@@ -120,6 +120,23 @@ footer .content .link-boxes .box{
   text-decoration: none;
   opacity: 0.8;
   transition: all 0.4s ease
+}
+
+.contactdetail{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease;
+}
+.contactdetail1{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease;
 }
 .content .link-boxes .box li a:hover{
   opacity: 1;

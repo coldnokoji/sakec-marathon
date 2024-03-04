@@ -112,6 +112,8 @@
         font-size: 12px;
         padding: 8px 16px;
     }
+
+  
 }
 .hero-heading {
     color: #00355e;
@@ -119,7 +121,7 @@
 }
 
 .hero-body p {
-    padding: 15px 10vw;
+    padding: 8px 2vw;
     font-weight: 500;
 }
 

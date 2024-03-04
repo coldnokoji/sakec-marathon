@@ -26,7 +26,7 @@ const Navbar = () => {
             <NavLink className="page-link" to='/'>Home</NavLink>
             <NavLink className="page-link" to='/about'>Marathon 2024</NavLink>
             <NavLink className="page-link" to='/team'>Team</NavLink>
-            <NavLink className="page-link" to='/contact'>Contact/FAQ</NavLink>
+            <NavLink className="page-link" to='/faq'>FAQ</NavLink>
             <a href="https://www.townscript.com/e/sakec-marathon-2024-334200" target="blank">Register</a>
         </nav>
     </header>

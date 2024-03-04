@@ -35,17 +35,6 @@ const Hero = () => {
                 satisfaction of achieving a personal goal. Plus, we
                 offer exciting prizes for top finishers!</p>
 
-            <h2 className='hero-heading'>Social Connection :</h2>
-            <p>Running is more fun with friends! Connect with fellow
-                runners through our social media channels and local
-                running groups. Share training tips, motivation, and
-                encouragement to keep each other going strong.</p>
-
-            <h2 className='hero-heading'>Professional Support :</h2>
-            <p>Our team of experienced organizers and volunteers is
-                here to make sure your race day experience is
-                seamless and enjoyable. From race packets to
-                hydration stations, we've got all the details covered.</p>
 
             <h2 className='hero-heading'>Community Involvement :</h2>
             <p>We believe in giving back to the

@@ -8,6 +8,7 @@ import About from './pages/About';
 import Team from './pages/Team';
 import Contact from './pages/Contact';
 import Teamswitcher from './pages/Teamswitcher';
+import Faq from './pages/Faq';
 
 
 
@@ -23,7 +24,7 @@ function App() {
                 <Route path='/' element={<Home/>}/>
                 <Route path='/about' element={<About/>}/>
                 <Route path='/team' element={<Teamswitcher/>}/>
-                <Route path='/contact' element={<Contact/>}/>
+                <Route path='/faq' element={<Faq/>}/>
             </Routes>                    
         </section>
       </div>
