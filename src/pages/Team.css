@@ -41,6 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:5vh 0;
 }
 .second {
     width: 70vw;
@@ -119,6 +120,10 @@
        
         font-size: 1.2vh;
         
+    }
+
+    .team-h1{
+        font-size: 5vh;
     }
     
 }

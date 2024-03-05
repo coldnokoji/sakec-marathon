@@ -109,6 +109,7 @@ footer .content .link-boxes {
 
 footer .content .link-boxes .box {
   width: calc(100% / 5 - 10px);
+  padding: 5px;
 }
 
 .content .link-boxes .box .link_name {

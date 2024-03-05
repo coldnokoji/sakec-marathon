@@ -16,7 +16,9 @@ const Footer = () => {
           <div class="top">
             <div class="logo-details">
               <i class="fab fa-slack"></i>
-              <img src={logo} alt="logo" className="Logo" />
+              <a href="#" className="logo">
+            <img src={logo} alt="" className="Logo"/>
+        </a>
             </div>
             <div class="media-icons">
               

@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <div>
             <header className="header">
-        <a href="#" className="logo">
+        <a href="/" className="logo">
             <img src={logo} alt="" className="Logo"/>
         </a>
 
@@ -25,9 +25,9 @@ const Navbar = () => {
         <nav className="navbar">
             <NavLink className="page-link" to='/'>Home</NavLink>
             <NavLink className="page-link" to='/about'>Marathon 2024</NavLink>
-            <NavLink className="page-link" to='/team'>Team</NavLink>
             <NavLink className="page-link" to='/faq'>FAQ</NavLink>
             <a href="https://www.townscript.com/e/sakec-marathon-2024-334200" target="blank">Register</a>
+            <NavLink className="page-link" to='/team'>Team</NavLink>
         </nav>
     </header>
 
