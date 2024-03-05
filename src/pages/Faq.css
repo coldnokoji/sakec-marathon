@@ -36,6 +36,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
     padding: 3%;
+    justify-content: center;
 }
 
 .faq-name {

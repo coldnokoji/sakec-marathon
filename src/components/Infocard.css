@@ -42,7 +42,6 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 50px 0;
-    padding-right: 30px;
 }
 
 
@@ -111,7 +110,7 @@
 
 .ag-courses-item_title {
     min-height: 35px;
-    margin: 0 0 15px;
+    margin: 15px 0 15px;
   
     overflow: hidden;
   
@@ -212,21 +211,25 @@
     }
 
     .ag-courses-item_title {
-        min-height: 65px;
+        min-height: 55px;
         line-height: 1;
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .ag-courses-item_link {
         padding: 22px 40px;
-        height: 70vh;
+        height: 60vh;
     }
 
     .ag-courses-item_date-box {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .ag-courses-item_details {
-        font-size: 24px;
+        font-size: 19px;
+    }
+
+    .ag-courses-item_num {
+        font-size: 16px;
     }
 }

@@ -43,7 +43,7 @@
     align-items: center;
 }
 .second {
-    width: 60vw;
+    width: 70vw;
 }
 
 .team-h1{
@@ -73,7 +73,10 @@
 
 .team-card img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     transition: 0.5s;
+    
 }
 
 .h3-hover {
@@ -86,7 +89,7 @@
     color: #ffffff;
     text-align: center;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 1.3vw;
     font-weight: 600;
     transform: skew(-5deg);
     transition: 0.3s;
@@ -97,13 +100,27 @@
     width: 80%;
     padding: 12px 0;
     text-align: center;
-    font-size: 16px;
+    font-size: 1vw;
     letter-spacing: 0.5px;
     position: absolute;
     right: -85%;
     bottom: 37px;
     transform: skew(-5deg);
     transition: 0.3s;
+}
+@media (max-width:650px){
+    .h3-hover {
+        
+        font-size: 1.5vh;
+       
+    }
+    
+    .h5-hover {
+       
+        font-size: 1.2vh;
+        
+    }
+    
 }
 
 .team-card:hover h3,

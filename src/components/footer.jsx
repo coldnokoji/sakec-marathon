@@ -26,7 +26,7 @@ const Footer = () => {
             <ul class="box">
               <li class="link_name">Contact Us</li>
               <p className="contactdetail">If you have any queries, feel free to contact us.</p>
-              <br />
+              
               <p className="contactdetail1">sakec.marathon@sakec.ac.in</p>
             </ul>
             <ul class="box">

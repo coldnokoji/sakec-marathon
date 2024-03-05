@@ -3,8 +3,8 @@
 
 .banner-wrapper {
     position: relative;
-    width: 70%;
-    left: 15%;
+    width: 60%;
+    left: 21%;
     margin: 5vh 0;
     padding: 0;
 }
@@ -103,6 +103,7 @@
 
     .hero-body{
         font-size: 1.75vh;
+        padding: 20px 8vw;
     }
 
     .text a {

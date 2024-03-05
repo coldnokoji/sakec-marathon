@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../components/navbar'
 import './Faq.css';
 import Footer from '../components/footer';
 
 export default function Faq() {
+   useEffect(()=>{
+    window.scrollTo(0, 0);
+   },[]);
+    
     return (
 
         <>
@@ -15,7 +19,7 @@ export default function Faq() {
             </div>
             <div className="faq">
                 <div className="faq-name">
-                    <h1 className="faq-header">Have <br /> questions ?</h1>
+                    <h1 className="faq-header">Have <br /> Questions?</h1>
                     <img className="faq-img" src={require("../assets/img/faq-image.jpeg")} />
                 </div>
                 <div className="faq-box">

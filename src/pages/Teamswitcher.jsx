@@ -1,10 +1,15 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Team2024, { Team2022, Team2023 } from './Team';
 import './Teamswitcher.css';
 
 export default function Teamswitcher() {
   
     var [show, setShow] = useState(2024);
+
+    useEffect(()=>{
+      window.scrollTo(0,0);
+    },[]);
+    
     return (
       <div className="switcher">
         <div class="team-change">

@@ -91,7 +91,7 @@ export default function Infocard() {
                         10KM Timed Run
                     </div>
                     <div class="ag-courses-item_date-box">
-                        Rs. 
+                        Rs.&nbsp;
                         <span class="ag-courses-item_date">
                             499 /-
                         </span>
