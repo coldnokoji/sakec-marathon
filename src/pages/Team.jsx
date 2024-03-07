@@ -104,25 +104,13 @@ const Team2024 = () => {
                     </div>
                     <div class="team-card">
                         <img src={require('../assets/img/profile/team24/vivek samanta.jpg')} />
-                        <h5 className="h5-hover">GRAPHICS CO-ORDINATOR</h5>
-                        <h3 className="h3-hover">VIVEK SAMANTA</h3>
-                    </div>
-
-                </div>
-
-                <div className="hori-line">
-                    <hr />
-                </div>
-
-                <h1 className="team-h1">Web Team</h1>
-                <div className="second-wrapper">
-                <div className="body second">
-
-                    <div class="team-card">
-                        <img src={require('../assets/img/profile/team24/vivek samanta.jpg')} />
                         <h5 className="h5-hover">WEB HEAD</h5>
                         <h3 className="h3-hover">VIVEK SAMANTA</h3>
                     </div>
+
+                </div>
+
+                <div className="body">
                     <div class="team-card">
                         <img src={require('../assets/img/profile/team24/aryan mishra.jpeg')} />
                         <h5 className="h5-hover">WEB CO-HEAD</h5>
@@ -130,7 +118,8 @@ const Team2024 = () => {
                     </div>
                     
                 </div>
-                </div>
+
+                
 
             </div>
             <Footer />
