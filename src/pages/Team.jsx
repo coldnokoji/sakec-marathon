@@ -58,66 +58,80 @@ const Team2024 = () => {
                 <h1 className="team-h1">Core Team</h1>
                 <div className="body">
 
+                <div class="team-card">
+                        <img src={require('../assets/img/profile/team24/harsh.jfif')} />
+                        <h5 className="h5-hover">SPONSORSHIP CO-ORDINATOR</h5>
+                        <h3 className="h3-hover">HARSH VAISHNAV</h3>
+                    </div>
+
+                <div class="team-card">
+                        <img src={require('../assets/img/profile/team24/Moxita Shah.jpg')} />
+                        <h5 className="h5-hover">SPONSORSHIP CO-ORDINATOR</h5>
+                        <h3 className="h3-hover">MOXITA SHAH</h3>
+                    </div>
+
                     <div class="team-card">
                         <img src={require('../assets/img/profile/team24/asmi.jpeg')} />
                         <h5 className="h5-hover">SOCIAL MEDIA HEAD</h5>
                         <h3 className="h3-hover">ASMI JAIN</h3>
                     </div>
-                    <div class="team-card">
-                        <img src={require('../assets/img/profile/team24/bhavya.jpeg')} />
-                        <h5 className="h5-hover">CONTENT WRITER</h5>
-                        <h3 className="h3-hover">BHAVYA SHAH</h3>
-                    </div>
-                    <div class="team-card">
+                   
+                    
+                </div>
+                <div className="body">
+                    
+                <div class="team-card">
                         <img src={require('../assets/img/profile/team24/ashutosh.jpeg')} />
                         <h5 className="h5-hover">LOGISTICS CO-ORDINATOR</h5>
                         <h3 className="h3-hover">ASHUTOSH RAI</h3>
                     </div>
-                </div>
-                <div className="body">
-                    <div class="team-card">
-                        <img src={require('../assets/img/profile/team24/Moxita Shah.jpg')} />
-                        <h5 className="h5-hover">SPONSORSHIP CO-ORDINATOR</h5>
-                        <h3 className="h3-hover">MOXITA SHAH</h3>
-                    </div>
-                    <div class="team-card">
-                        <img src={require('../assets/img/profile/team24/harsh.jfif')} />
-                        <h5 className="h5-hover">SPONSORSHIP CO-ORDINATOR</h5>
-                        <h3 className="h3-hover">HARSH VAISHNAV</h3>
-                    </div>
-                    <div class="team-card">
-                        <img src={require('../assets/img/profile/team24/Punit.jfif')} />
-                        <h5 className="h5-hover">PUBLICITY CO-ORDINATOR</h5>
-                        <h3 className="h3-hover">PUNIT JAIN</h3>
-                    </div>
-                </div>
-                <div className="body ">
+
                     <div class="team-card">
                         <img src={require('../assets/img/profile/team24/Yash_Patel.jpg')} />
                         <h5 className="h5-hover">GRAPHICS HEAD</h5>
                         <h3 className="h3-hover">YASH PATEL</h3>
                     </div>
+
                     <div class="team-card">
                         <img src={require('../assets/img/profile/team24/Kaushal Patel (1).png')} />
                         <h5 className="h5-hover">GRAPHICS CO-HEAD</h5>
                         <h3 className="h3-hover">KAUSHAL PATEL</h3>
                     </div>
+
+                    
+                </div>
+                <div className="body ">
+                    
+                    
                     <div class="team-card">
                         <img src={require('../assets/img/profile/team24/vivek samanta.jpg')} />
                         <h5 className="h5-hover">WEB HEAD</h5>
                         <h3 className="h3-hover">VIVEK SAMANTA</h3>
                     </div>
 
-                </div>
-
-                <div className="second-wrapper">
-                <div className="body second">
-
                     <div class="team-card">
                         <img src={require('../assets/img/profile/team24/aryan mishra.jpeg')} />
                         <h5 className="h5-hover">WEB CO-HEAD</h5>
                         <h3 className="h3-hover">ARYAN MISHRA</h3>
                     </div>
+
+                    <div class="team-card">
+                        <img src={require('../assets/img/profile/team24/bhavya.jpeg')} />
+                        <h5 className="h5-hover">CONTENT WRITER</h5>
+                        <h3 className="h3-hover">BHAVYA SHAH</h3>
+                    </div>
+
+                </div>
+
+                <div className="second-wrapper">
+                <div className="body second">
+                    
+                <div class="team-card">
+                        <img src={require('../assets/img/profile/team24/Punit.jfif')} />
+                        <h5 className="h5-hover">PUBLICITY CO-ORDINATOR</h5>
+                        <h3 className="h3-hover">PUNIT JAIN</h3>
+                    </div>
+                    
                     <div class="team-card">
                         <img src={require('../assets/img/profile/team24/sumeet nikum.jpeg')} />
                         <h5 className="h5-hover">WEB CO-ORDINATOR</h5>
