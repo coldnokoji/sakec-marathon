@@ -110,16 +110,22 @@ const Team2024 = () => {
 
                 </div>
 
-                <div className="body">
+                <div className="second-wrapper">
+                <div className="body second">
+
                     <div class="team-card">
                         <img src={require('../assets/img/profile/team24/aryan mishra.jpeg')} />
                         <h5 className="h5-hover">WEB CO-HEAD</h5>
                         <h3 className="h3-hover">ARYAN MISHRA</h3>
                     </div>
+                    <div class="team-card">
+                        <img src={require('../assets/img/profile/team24/sumeet nikum.jpeg')} />
+                        <h5 className="h5-hover">WEB CO-ORDINATOR</h5>
+                        <h3 className="h3-hover">SUMEET NIKUM</h3>
+                    </div>
                     
                 </div>
-
-                
+                </div>
 
             </div>
             <Footer />
